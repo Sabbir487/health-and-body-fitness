@@ -1,4 +1,7 @@
 @media screen and (max-width:576px){
+
+/* fitness navigation bar style */
+
     .nav-container {
         width: 90%;
         margin: 0% auto;
@@ -11,5 +14,17 @@
     .hambuerger-icon {
         display: block;
         padding-top: 5px;
+    }
+
+/* < !-- navigation bar banner container style --> */
+
+    .nav-banner-conatiner {
+        width: 90%;
+        margin: 0% auto;
+        flex-direction: column;
+    }
+
+    .nav-title {
+        font-size: 3.2rem;
     }
 }
