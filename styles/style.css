@@ -76,3 +76,10 @@ a {
     font-weight: 400;
     margin-left: 47px;
 }
+
+.hambuerger-icon {
+    color: white;
+    font-size: 30px;
+    display: none;
+    padding-top: 20px;
+}

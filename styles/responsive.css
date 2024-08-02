@@ -1,0 +1,15 @@
+@media screen and (max-width:576px){
+    .nav-container {
+        width: 90%;
+        margin: 0% auto;
+    }
+
+    .hamburger-option {
+        display: none;
+    }
+
+    .hambuerger-icon {
+        display: block;
+        padding-top: 5px;
+    }
+}
