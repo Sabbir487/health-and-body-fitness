@@ -30,15 +30,50 @@
         margin-left: 50px;
     }
 
+    .nav-text {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .header-btn{
+        text-align: center;
+    }
+
+    .join-btn, .download-btn{
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+
+    .join-btn{
+        margin-right: 10px;
+    }
+
+    .nav-banner {
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav-banner>img{
+        width: 100%;
+    }
+
     .card-container {
-        position: absolute;
-        top: 280px;
-        left: -50px;
+        left: 0;
     }
 
     .card-container2 {
-        position: absolute;
-        top: 100px;
-        left: 200px;
+        top: 90px;
+        left: 210px;
+        width: 140px;
+    }
+
+    .another-title{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .another-description{
+        margin-left: 10px;
+        font-size: 10px;
     }
 }
