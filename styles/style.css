@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+/* nav container style hamburger */
+
+.nav-container {
+    max-width: 70%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.nav-title {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.nav-border {
+    border: 1.2px solid rgba(255, 255, 255, 0.196);
+    border-radius: 39px;
+}
+
+.nav-style-btn {
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.nav-btn {
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 60px;
+    margin-right: 15px;
+}
+
+.hamburger-icon {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+/* < !-- nav banner container style --> */
+
+.nav-banner-container {
+    max-width: 70%;
+    margin: 0% auto;
+    display: flex;
+}
+
+.nav-text {
+    width: 70%;
+    margin-top: 60px;
+}
+
+.nav-h1 {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.font-miama {
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+}
+
+.nav-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.join-btn {
+    padding: 16px 40px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.download-btn {
+    padding: 16px 40px;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-banner {
+    width: 30%;
+    position: relative;
+}
+
+.card-container {
+    width: 206px;
+    height: 96px;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 418px;
+    left: -115px;
+}
+
+.red-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    margin-right: 20px;
+}
+
+.card-title {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.card-description {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.card-container2 {
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    align-content: center;
+    position: absolute;
+    top: 130px;
+    left: 180px;
+}
+
+.another-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 25px;
+}
+
+.another-description {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 25px;
+}

@@ -1,0 +1,50 @@
+@media screen and (max-width: 576px) {
+
+    /* nav container style hamburger */
+
+    .nav-container {
+        max-width: 90%;
+    }
+
+    .nav-border {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    /* < !-- nav banner container style --> */
+
+    .nav-banner-container {
+        max-width: 90%;
+        flex-direction: column;
+    }
+    
+    .nav-h1 {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    
+    .btn-container {
+        flex-direction: row;
+        width: 160%;
+    }
+
+    .join-btn {
+        margin-right: 5px;
+    }
+
+    .card-container {
+        position: absolute;
+        top: 240px;
+        left: 5px;
+    }
+
+    .card-container2 {
+        position: absolute;
+        top: 100px;
+        left: 200px;
+    }
+}
