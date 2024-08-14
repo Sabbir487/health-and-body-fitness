@@ -62,18 +62,21 @@
     }
 
     .card-container2 {
-        top: 90px;
+        width: 40%;
+        height: 15%;
+        border-radius: 12px;
+        align-content: center;
+        top: 105px;
         left: 210px;
-        width: 140px;
     }
 
     .another-title{
         font-size: 25px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .another-description{
-        margin-left: 10px;
+        margin-left: 20px;
         font-size: 10px;
     }
 }
