@@ -24,22 +24,16 @@
     .nav-h1 {
         font-size: 40px;
         font-weight: 900;
-        line-height: 120%;
-    }
-    
-    .btn-container {
-        flex-direction: row;
-        width: 160%;
     }
 
-    .join-btn {
-        margin-right: 5px;
+    .nav-banner {
+        margin-left: 50px;
     }
 
     .card-container {
         position: absolute;
-        top: 240px;
-        left: 5px;
+        top: 280px;
+        left: -50px;
     }
 
     .card-container2 {
