@@ -199,3 +199,58 @@ header{
     margin-top: 5px;
     margin-left: 25px;
 }
+
+/* change your habbit container section style */
+
+.prof-gym-container {
+    max-width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.habbit {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.habbit-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.body-fitness-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.body-fitness {
+    width: 231px;
+    height: 290px;
+    align-items: center;
+    text-align: center;
+}
+
+.body-fitness > img {
+    border-radius: 90px;
+}
+
+.move {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.we-believe {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}

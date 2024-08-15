@@ -79,4 +79,21 @@
         margin-left: 20px;
         font-size: 10px;
     }
+
+        /* change your habbit container section style */
+
+    .habbit {
+        font-size: 30px;
+        margin-top: -50px;
+    }
+
+    .habbit-description {
+        font-size: 12px;
+    }
+
+    .body-fitness-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 35px;
+    }
 }
