@@ -459,8 +459,12 @@ td {
     margin-bottom: 35px;
 }
 
-.sex-form select {
-    color: rgba(255, 255, 255, 0.6);
+.sex-form {
+    width: 100%;
+}
+
+.sex-form > select {
+    color: rgba(124, 115, 115, 0.999);
     font-size: 16px;
     font-weight: 400;
 }
@@ -474,7 +478,7 @@ td {
 }
 
 ::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(124, 115, 115, 0.999);
     font-size: 16px;
     font-weight: 400;
 }
@@ -570,3 +574,77 @@ td {
 .team-description {
     font-size: 1em;
 }
+
+/* footer container section style */
+
+.footer-bg {
+    margin-top: 90px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-fitness {
+    width: 40%;
+    margin-top: 65px;
+}
+
+.footer-header {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title-container {
+    width: 60%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.title-section {
+    margin-left: 100px;
+}
+
+.footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.footer-btn {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.footer-btn > a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-hr {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.footer-all {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+

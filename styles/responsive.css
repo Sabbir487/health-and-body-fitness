@@ -142,6 +142,18 @@
 
         /* bmi calculator section style */
 
+    .bmi-table {
+        text-align: center;
+    }
+
+    .table-sundor {
+        margin: 0 auto;
+    }
+
+    .bmi-sundor {
+        text-align: center;
+    }
+
     .bmi-section {
         max-width: 90%;
     }
@@ -157,12 +169,14 @@
         align-items: center;
     }
 
+    .sex-form {
+        text-align: center;
+    }
+
     .bmi-form {
+        text-align: center;
         padding: 20px 30px 10px 15px;
         margin: 0px 7px 12px 0px;
-        border: none;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
     }
 
     .sex {
@@ -183,5 +197,31 @@
     .team-card {
         max-width: 90%;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+        /* footer container section style */
+
+    .footer-container {
+        max-width: 90%;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    .footer-fitness {
+        width: 90%;
+    }
+
+    .title-container {
+        max-width: 90%;
+        flex-direction: column;
+    }
+
+    .title-section {
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .footer-hr {
+        max-width: 90%;
     }
 }
