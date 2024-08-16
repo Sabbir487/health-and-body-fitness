@@ -125,4 +125,18 @@
     .run-extra-img img {
         width: 100%;
     }
+
+        /* explore our programe section style */
+
+    .our-header {
+        margin-bottom: 16px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .explore-grid {
+        max-width: 90%;
+        margin: 50px auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

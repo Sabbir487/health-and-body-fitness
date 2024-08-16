@@ -308,3 +308,84 @@ header{
     border-radius: 18px;
 }
 
+/* explore our programe section style */
+
+.explore-container {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.explore-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.our-header {
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.explore-nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.explore-nav span {
+    padding: 0 6px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.explore-grid {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.explore-card {
+    padding: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.explore-card span {
+    display: inline-block;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.explore-card h4 {
+    margin-bottom: 8px;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.explore-card p {
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.explore-card a {
+    color: rgb(255, 255, 255);
+}
