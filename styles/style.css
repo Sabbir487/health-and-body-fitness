@@ -313,7 +313,6 @@ header{
 .explore-container {
     max-width: 70%;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .explore-header {
@@ -388,4 +387,186 @@ a {
 
 .explore-card a {
     color: rgb(255, 255, 255);
+}
+
+/* bmi calculator section style */
+
+.bmi-section {
+    max-width: 40%;
+    margin: 80px auto;
+}
+
+.bmi-header {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bmi-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* bmi calculator container section style*/
+
+.bmi-bg {
+background: rgb(34, 34, 34);
+}
+
+.bmi-container {
+    max-width: 70%;
+    margin: 80px auto;
+    display: flex;
+}
+
+.bmi-table {
+    width: 83%;
+}
+
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.sex-form select {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bmi-form {
+    padding: 15px 46px 15px 20px;
+    margin: 0px 7px 12px 0px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sex {
+    padding: 15px 140px 12px 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#bmi-select {
+    padding: 12px 265px 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bmi-btn {
+    padding: 16px 40px;
+    margin: 35px 0px 50px 0px;
+    border: none;
+    border-radius: 42px; 
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* team container section style */
+
+.our-team {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-header {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.team-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.team-card {
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 15px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.trainer-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.team-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(47, 44, 44, 0.777);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.team-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.team-description {
+    font-size: 1em;
 }

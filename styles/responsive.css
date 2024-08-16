@@ -139,4 +139,49 @@
         margin: 50px auto;
         grid-template-columns: repeat(1, 1fr);
     }
+
+        /* bmi calculator section style */
+
+    .bmi-section {
+        max-width: 90%;
+    }
+
+    .bmi-header {
+        margin-bottom: 15px;
+    }
+
+    .bmi-container {
+        max-width: 90%;
+        margin: 50px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bmi-form {
+        padding: 20px 30px 10px 15px;
+        margin: 0px 7px 12px 0px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .sex {
+        padding: 15px 120px 12px 12px;
+    }
+
+    #bmi-select {
+        padding: 15px 9px 12px 15px;
+        margin-top: 20px;
+    }
+
+        /* team container section style */
+
+    .our-team {
+        max-width: 90%;
+    }
+
+    .team-card {
+        max-width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
